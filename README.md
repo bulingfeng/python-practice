@@ -1,2 +1,6 @@
 # python-practice
-practise python
+## mysql
+安装pymysql
+```commandline
+pip install pymysql
+```
