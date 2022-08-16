@@ -14,7 +14,8 @@ cursor.execute("select * from t_ecommerce_user ")
 # 使用 fetchone() 方法获取单条数据.
 data = cursor.fetchall()
 # 打印
-print(data)
+for item in data:
+    print(item)
 
 # 关闭数据库连接
 db.close()
